@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(24, 92%, 49%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* You can add more styles or modify as needed */

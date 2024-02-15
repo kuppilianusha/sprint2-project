@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Signup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2874f0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .signup-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .signup-container h2 {
+            color: #000;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group button {
+            width: 100%;
+            padding: 12px;
+            background-color: #fb641b;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .form-group p {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .form-group a {
+            color: #2874f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Create an account on Flipkart</h2>
+        <form id="signupForm" onsubmit="return validateForm()">
+            <div class="form-group">
+                <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">
+                    <a href="website.html">signup</a>
+                </button>
+            </div>
+            <p>Already have an account? <a href="#">Login</a></p>
+        </form>
+    </div>
+
+    <script>
+        function validateForm() {
+            // Add your validation logic here
+            // For simplicity, let's just return true for now
+            return true;
+        }
+    </script>
+</body>
+</html>
